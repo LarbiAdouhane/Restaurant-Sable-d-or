@@ -1,0 +1,30 @@
+/* Update image paths in the CSS file */
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
+
+/* All existing CSS remains the same, just updating the background image paths */
+header {
+    height: 100vh;
+    background: url("../images/home_bg.jpeg") center center/cover no-repeat;
+    position: relative;
+}
+
+#offers {
+    height: 80vh;
+    background: url("../images/offer-background.jpg") center center/cover fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#daytime {
+    background: url("../images/daytime_bg.jpeg") center center/cover fixed no-repeat;
+    color: #fff;
+    text-align: center;
+}
+
+#gallery {
+    background: url("../images/offer-background.jpg") center center/cover;
+    padding: 8rem 0 6rem;
+}
+
+/* Rest of the CSS remains exactly the same */
